@@ -2,15 +2,15 @@
 
 /* Paletas de colores que pueden usar: */
 
-/* Paleta 1: */
-/*:root {
+/*Paleta 1:*/ 
+:root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;
   --color-primario: #e11d48;
   --color-secundario: #f59e0b;
   --color-texto: #f8fafc;
   --color-texto-suave: #94a3b8;
-}*/
+}
 
 /* Paleta 2: */
 /*:root {
@@ -31,3 +31,7 @@
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
 }*/
+
+/*
+  colores, secciones de la pagina (header,main, footer)
+*/
