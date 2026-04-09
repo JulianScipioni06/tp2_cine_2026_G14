@@ -1,5 +1,7 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
 @import url(./components/grids.css);
+@import url(./components/nav.css);
+@import url(./components/footer.css);
 
 /* Paletas de colores que pueden usar: */
 
