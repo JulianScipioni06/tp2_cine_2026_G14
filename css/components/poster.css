@@ -1,6 +1,31 @@
 /* las fotos de las películas están más pequeñas por un tema de visibilidad
 modifiquen los atributos a su gusto con una clase, o eliminen esta parte del código */
+
 img {
   width: 100px;
   height: 100px;
 }
+
+.peliculas {
+  display: grid;
+  padding: 16px;
+  text-align: center;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+}
+
+.peliculas div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px; 
+} 
+
+.peliculas img{
+  display: grid;
+  padding: 10px;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+}
+
