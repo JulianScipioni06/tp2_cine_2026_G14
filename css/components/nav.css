@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background-color: var(--color-primario);
+
+}
+
+header div:first-child{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -40px;
+    align-items: center;
+    gap: 1rem;
+}
+
+header h1 {
+    color: var(--color-texto);
+    font-size: 2rem;
+}
+header img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;;
+}
+
+.menu {
+     display: flex;
+    gap: 1.5rem;
+    background-color: var(--color-primario);
+}
+.menu a{
+    color: var(--color-texto);
+    text-decoration: none;
+    background-color: var(--color-superficie);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.menu a:hover {
+    background-color: rgb(88, 88, 88);
+    color: var(--color-texto);
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px #000000;
+}
