@@ -42,6 +42,11 @@
   font-family: "Inter", sans-serif;
 }
 
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
 /*
   colores, secciones de la pagina (header,main, footer)
 */
