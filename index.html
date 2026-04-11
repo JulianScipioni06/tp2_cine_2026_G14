@@ -7,6 +7,8 @@
     <meta name="description" content="Cine Aurora - Tu destino para disfrutar del mejor cine en la ciudad. Descubre las últimas películas, compra tus entradas y vive la experiencia cinematográfica al máximo." />
     <link rel="icon" href="./assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/components/card-horizontal.css">
+    <link rel="stylesheet" href="./css/components/card-vertical.css">
   </head>
 
   <body>
@@ -17,7 +19,7 @@
           <img src="./assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
         </div>
         <div>
-          <nav>
+          <nav class="menu">
             <a href="#">Inicio</a>
             <a href="./pages/estrenos.html">Próximos estrenos</a>
             <a href="./pages/login.html">Mi perfil</a>
@@ -30,26 +32,30 @@
           <h2>Películas en cartelera</h2>
 
           <div class="peliculas">
-            <div>
-              <img src="./assets/img/poster-1.png" alt="" />
-              <h3>Nombre película</h3>
-              <p>Género</p>
-              <a href="./pages/detalle.html">Ver más</a>
+            <article class="card-vertical">
+              <img src="./assets/img/poster-1.png" alt="" class="poster-img" class="card-vertical-imagen"/>
+            <div class="card-vertical-contenido">
+              <h3 class="card-vertical-titulo">Nombre película</h3>
+              <p class="card-vertical-descripcion">Género</p>
+              <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
               <a
+              class="btn-principal"
               href="#"
               onclick="
                 alert('Lo sentimos, en este momento no funciona nuestro sistema')
               "
-              >Comprar entradas</a
-            >
-            </div>
+              >Comprar entradas</a>
+              </div>
+            </article>
 
-            <div>
-              <img src="./assets/img/poster-1.png" alt="" />
-              <h3>Nombre película</h3>
-              <p>Género</p>
-              <a href="./pages/detalle.html">Ver más</a>
+            <article class="card-vertical">            
+              <img src="./assets/img/poster-1.png" alt="" class="poster-img" class="card-vertical-imagen"/>
+            <div class="card-vertical-contenido">
+              <h3 class="card-vertical-titulo">Nombre película</h3>
+              <p class="card-vertical-descripcion">Género</p>
+              <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
               <a
+              class="btn-principal"
               href="#"
               onclick="
                 alert('Lo sentimos, en este momento no funciona nuestro sistema')
@@ -57,13 +63,16 @@
               >Comprar entradas</a
             >
             </div>
+            </article>
 
-            <div>
-              <img src="./assets/img/poster-1.png" alt="" />
-              <h3>Nombre película</h3>
-              <p>Género</p>
-              <a href="./pages/detalle.html">Ver más</a>
+            <article class="card-vertical">
+              <img src="./assets/img/poster-1.png" alt="" class="poster-img" class="card-vertical-imagen"/>
+            <div class="card-vertical-contenido">
+              <h3 class="card-vertical-titulo">Nombre película</h3>
+              <p class="card-vertical-descripcion">Género</p>
+              <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
               <a
+              class="btn-principal"
               href="#"
               onclick="
                 alert('Lo sentimos, en este momento no funciona nuestro sistema')
@@ -71,13 +80,16 @@
               >Comprar entradas</a
             >
             </div>
+            </article>
 
-            <div>
-              <img src="./assets/img/poster-1.png" alt="" />
-              <h3>Nombre película</h3>
-              <p>Género</p>
-              <a href="./pages/detalle.html">Ver más</a>
+            <article class="card-vertical">
+              <img src="./assets/img/poster-1.png" alt="" class="poster-img" class="card-vertical-imagen"/>
+            <div class="card-vertical-contenido">  
+              <h3 class="card-vertical-titulo">Nombre película</h3>
+              <p class="card-vertical-descripcion">Género</p>
+              <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
               <a
+              class="btn-principal"
               href="#"
               onclick="
                 alert('Lo sentimos, en este momento no funciona nuestro sistema')
@@ -85,13 +97,16 @@
               >Comprar entradas</a
             >
             </div>
+            </article>
 
-            <div>
-              <img src="./assets/img/poster-1.png" alt="" />
-              <h3>Nombre película</h3>
-              <p>Género</p>
-              <a href="./pages/detalle.html">Ver más</a>
+            <article class="card-vertical">
+              <img src="./assets/img/poster-1.png" alt="" class="poster-img" class="card-vertical-imagen"/>
+              <div class="card-vertical-contenido">
+              <h3 class="card-vertical-titulo">Nombre película</h3>
+              <p class="card-vertical-descripcion">Género</p>
+              <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
               <a
+              class="btn-principal"
               href="#"
               onclick="
                 alert('Lo sentimos, en este momento no funciona nuestro sistema')
@@ -99,13 +114,16 @@
               >Comprar entradas</a
             >
             </div>
+            </article>
 
-            <div>
-              <img src="./assets/img/poster-1.png" alt="" />
-              <h3>Nombre película</h3>
-              <p>Género</p>
-              <a href="./pages/detalle.html">Ver más</a>
+            <article class="card-vertical">
+              <img src="./assets/img/poster-1.png" alt="" class="poster-img" class="card-vertical-imagen"/>
+            <div class="card-vertical-contenido">  
+              <h3 class="card-vertical-titulo">Nombre película</h3>
+              <p class="card-vertical-descripcion">Género</p>
+              <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
               <a
+              class="btn-principal"
               href="#"
               onclick="
                 alert('Lo sentimos, en este momento no funciona nuestro sistema')
@@ -113,6 +131,7 @@
               >Comprar entradas</a
             >
             </div>
+            </article>
           </div>
         </section>
       </main>
