@@ -6,59 +6,71 @@
     <title>Cine Aurora 📽️ - Mi perfil</title>
     <meta name="description" content="Cine Aurora - Mi perfil" />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/perfil.css" />
   </head>
 
   <body>
-    <header>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
-      </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="../pages/estrenos.html">Próximos estrenos</a>
-          <a href="../index.html">Volver</a>
-        </nav>
-      </div>
-    </header>
+    <div class="grid-principal">
+      <header>
+        <div>
+          <h1>Cine Aurora</h1>
+          <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+        </div>
+        <div>
+          <nav class="menu">
+            <a href="../index.html">Inicio</a>
+            <a href="../pages/estrenos.html">Próximos estrenos</a>
+            <a href="../index.html">Volver</a>
+          </nav>
+        </div>
+      </header>
 
-    <main>
-      <h1>Panel de usuario</h1>
-      <section>
-        <div>
-          <img
-            src="../assets/img/perfil-placeholder.png"
-            alt="Foto de perfil"
-          />
-          <h2>Hola, John Doe 👋📽️!</h2>
-        </div>
-        <div>
-          <p>Nombre completo: John Doe</p>
-          <p>Email: usuario@example.com</p>
-          <p>Fecha de nacimiento: dd/mm/yyyy</p>
-          <p>Contraseña: ********</p>
-          <p>Miembro desde: 2026</p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <div>
-            <h3>Películas ya vistas</h3>
-          </div>
-          <div>
-            <ul>
-              <li>🎬 Estreno A - Vista el 10/03</li>
-              <li>🎬 Estreno B - Vista el 15/03</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
+      <main>
+        <h1>Panel de usuario</h1>
+        <div class="perfil-columnas">
 
-    <footer>
-      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-    </footer>
+          <section class="perfil-usuario">
+            <div class="img-usuario">
+              <img
+                src="../assets/img/perfil-placeholder.png"
+                alt="Foto de perfil"
+              />
+            </div>
+            <div class="datos-usuario">
+              <h2>Hola, John Doe 👋📽️!</h2>
+              <p><strong>Nombre completo:</strong> John Doe</p>
+              <p><strong>Email:</strong> usuario@example.com</p>
+              <p><strong>Fecha de nacimiento:</strong> dd/mm/yyyy</p>
+              <p><strong>Contraseña:</strong> ********</p>
+              <p><strong>Miembro desde:</strong> 2026</p>
+              <button class="btn-principal">Editar Perfil</button>
+            </div>
+          </section>
+
+          <section class="peliculas-vistas">
+            <div>
+              <div>
+                <h2>Películas ya vistas</h2>
+              </div>
+              <div class="lista-horizontal">
+                <article class="card-horizontal">
+                  <img src="../assets/img/poster-1.png" alt="" class="card-horizontal-imagen poster-img" >
+                  <div class="card-horizontal-contenido">  
+                    <h3 class="card-horizontal-titulo">Nombre película</h3>
+                    <p class="card-horizontal-descripcion">Género</p>
+                    <a class="btn-principal" href="./pages/detalle.html">Ver más</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+      </footer>
+    </div>
   </body>
 </html>

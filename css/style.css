@@ -1,6 +1,8 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
 @import url(./components/grids.css);
 @import url(./components/button.css);
+@import url(./components/footer.css);
+@import url(./components/nav.css);
 
 /* Paletas de colores que pueden usar: */
 
@@ -40,6 +42,11 @@
   font-family: "Inter", sans-serif;
 }
 
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
 /*
   colores, secciones de la pagina (header,main, footer)
 */
