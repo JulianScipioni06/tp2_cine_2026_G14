@@ -1,0 +1,57 @@
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/grids.css);
+@import url(./components/card-horizontal.css);
+@import url(./components/card-vertical.css);
+@import url(./components/grids.css);
+
+.detalles {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+    align-items: flex-start;
+}
+
+img{
+    display: grid;
+    height: 600px;
+    width: 400px;
+    box-shadow: 0 0 20px var(--color-fondo);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 4px solid #e50000;
+    padding-left: 20px;
+}
+
+.sinopsis {
+    margin-top: 24px;
+}
+
+.duracion{
+    margin-top: 16px;
+}
+
+.duracion, .genero, .director, .clasificacion, .horarios, .puntuacion {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+}
+
+.horarios summary {
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-principal{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
