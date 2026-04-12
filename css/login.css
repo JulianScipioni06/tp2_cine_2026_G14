@@ -1,0 +1,44 @@
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/grids.css);
+@import url(./components/card-horizontal.css);
+@import url(./components/card-vertical.css);
+@import url(./components/grids.css);
+
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.login-form {
+    width: 320px;
+    padding: 25px;
+    background: var(--color-fondo);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 10px 25px var(--color-fondo);
+}
+
+.login-form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-input {
+    width: 94%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.login-form p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}

@@ -1,0 +1,88 @@
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/grids.css);
+@import url(./components/card-horizontal.css);
+@import url(./components/card-vertical.css);
+@import url(./components/grids.css);
+
+
+.perfil-columnas {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 32px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 24px;
+}
+
+.perfil-usuario {
+    display: flex;       
+    flex-direction: row;
+    flex: 0 0 450px;  
+    align-items: center; 
+    
+    max-width: 800px; 
+    margin: 0 auto;   
+    
+    gap: 32px;           
+    padding: 24px;
+    background-color: var(--color-superficie); 
+    border-radius: 8px;
+}
+
+.datos-usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    align-items: flex-start; 
+}
+
+.img-usuario {
+    width: 150px;       
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.img-usuario img {
+    width: 150px;       
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.peliculas-vistas {
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+    flex: 1; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peliculas-vistas h2 {
+    text-align: center;
+    margin-bottom: 24px; 
+}
+
+main h1 {
+    text-align: center;
+    margin: 24px 0;
+}
+
+@media (max-width: 850px) {
+    .perfil-columnas { 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .perfil-usuario,
+    .peliculas-vistas {
+        flex: auto; 
+        width: 100%;
+        max-width: 600px;
+    }
+}
