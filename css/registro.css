@@ -1,0 +1,66 @@
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/grids.css);
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px
+}
+form {
+    background-color: #262626;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+    max-width: 450px;
+    width: 100%;
+}
+h2,h3{
+    color: #ffc107;
+    text-align: center;
+}
+h3{
+    padding: 16px 0;
+    color: #ffc107;
+    text-align: center;
+}
+form div{
+    margin-bottom: 12px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+.btn-principal {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 6px;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+.btn-principal:hover {
+    background-color: #e0a800;
+}
