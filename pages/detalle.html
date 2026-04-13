@@ -6,7 +6,7 @@
     <title>Cine Aurora 📽️</title>
     <meta name="description" content="Cine Aurora - Detalle de la película." />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/detalle.css" />
   </head>
   <body>
     <header>
@@ -24,16 +24,16 @@
     </header>
 
     <main>
-      <section>
+      <section class="detalles">
         <div>
           <img src="../assets/img/poster-1.png" alt="Póster" />
         </div>
         <div>
-          <div>
+          <div class="titulo">
             <h1>Título</h1>
             <h2>Lorem ipsum, dolor sit.</h2>
           </div>
-          <div>
+          <div class="sinopsis">
             <h3>Sinopsis</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -42,33 +42,36 @@
               voluptatibus laboriosam ut recusandae animi quisquam!
             </p>
           </div>
-          <div>
-            <h3>Duración</h3>
+          <div class="duracion">
+            <h3>Duración:</h3>
             <p>155 minutos</p>
           </div>
 
-          <div>
-            <h3>Género</h3>
+          <div class="genero">
+            <h3>Género:</h3>
             <p>Ciencia ficción</p>
           </div>
 
-          <div>
-            <h3>Director</h3>
+          <div class="director">
+            <h3>Director:</h3>
             <p>John Doe</p>
           </div>
 
-          <div>
-            <h3>Clasificación</h3>
+          <div class="clasificacion">
+            <h3>Clasificación:</h3>
             <p>+13</p>
           </div>
-          <div>
-            <h3>Horarios:</h3>
+          <div class="horarios">
+            <details>
+            <summary>Horarios:</summary>
             <p>16:00</p>
             <p>19:00</p>
             <p>22:00</p>
+            </details>
           </div>
-          <div>
-            <p>Puntuación: ★★★★☆</p>
+          <div class="puntuacion">
+            <h3>Puntuación: </h3>
+            <p>★★★★☆</p>
           </div>
           <a class="btn-principal"
             href="#"
