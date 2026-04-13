@@ -10,9 +10,8 @@ header {
 header div:first-child{
     display: flex;
     flex-direction: row-reverse;
-    margin-left: -40px;
     align-items: center;
-    gap: 1rem;
+    gap: 8px;
 }
 
 header h1 {
@@ -34,7 +33,7 @@ header img {
     color: var(--color-texto);
     text-decoration: none;
     background-color: var(--color-superficie);
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -46,4 +45,21 @@ header img {
     color: var(--color-texto);
     transform: translateY(-4px);
     box-shadow: 0 4px 8px #000000;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 1.5rem;
+    }
+    
+    header div:first-child {
+        margin-left: 0; 
+    }
+
+    .menu {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
 }
