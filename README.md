@@ -1,6 +1,12 @@
 # Trabajo práctico N°2:
 
-- Flexbox
-- Grids
-- Media queries
-- Modularización CSS (import url(...))
+* **Grupo:** 14
+
+### Integrantes:
+* Julián Scipioni
+* Guido Strizzi
+* Bautista Pozo
+* Julián Ripa
+* Joaquin Wener
+
+---

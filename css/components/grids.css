@@ -1,0 +1,50 @@
+@import url(../style.css);
+
+.grid-principal {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: auto 1fr auto;
+    gap: 8px;
+}
+
+.peliculas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto 48px auto;
+    justify-items: center;
+    padding: 0 24px;
+}
+
+header {
+    grid-area: header;
+    background-color: var(--color-primario);
+}
+
+nav {
+    background-color: var(--color-fondo);
+}
+
+main {
+    grid-area: main;
+    background-color: var(--color-secundario);
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--color-superficie);
+}
+
+@media (max-width: 768px) {
+    .peliculas {
+        grid-template-columns: 1fr;
+    }
+    .grid-principal {
+        gap: 0; 
+    }
+}

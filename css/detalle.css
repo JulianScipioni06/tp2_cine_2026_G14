@@ -1,0 +1,95 @@
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/grids.css);
+@import url(./components/card-horizontal.css);
+@import url(./components/card-vertical.css);
+@import url(./components/grids.css);
+
+main {
+    padding: 64px 24px; 
+    display: flex;
+    justify-content: center;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 32px;
+    align-items: flex-start;
+    max-width: 1100px; 
+    margin: 48px auto; 
+    background-color: var(--color-superficie); 
+    border-radius: 16px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.detalles img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+img{
+    height: 600px;
+    width: 400px;
+    box-shadow: 0 0 20px var(--color-fondo);
+}
+
+.detalles > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 4px solid #e50000;
+    padding-left: 20px;
+}
+
+.sinopsis {
+    margin-top: 24px;
+}
+
+.duracion{
+    margin-top: 16px;
+}
+
+.duracion, .genero, .director, .clasificacion, .horarios, .puntuacion {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+}
+
+.horarios summary {
+    font-size: 18px; 
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detalles .btn-principal {
+    margin-top: 32px;
+    align-self: flex-start; 
+    padding: 16px 32px; 
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .detalles {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+}
