@@ -16,22 +16,22 @@
     width: 320px;
     padding: 25px;
     background: var(--color-fondo);
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    box-shadow: 0 10px 25px var(--color-fondo);
+    gap: 16px;
+    box-shadow: 0 10px 24px var(--color-fondo);
 }
 
 .login-form div {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
 }
 
 .form-input {
     width: 94%;
-    padding: 10px;
+    padding: 12px;
     border-radius: 6px;
     border: none;
 }

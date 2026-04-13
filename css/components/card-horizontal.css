@@ -3,9 +3,10 @@
 .card-horizontal {
     display: flex;
     flex-direction: row;
+    padding: 8px;
     width: 100%;
-    max-width: 600px;
-    height: 200px;
+    max-width: 700px;
+    height: 240px;
     background-color: #1e293b;
     border-radius: 12px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
@@ -20,22 +21,42 @@
 }
 
 .card-horizontal-imagen {
-    width: 600px;
-    height: 100%;
-    object-fit: cover;
+    flex: 0 0 140px; 
+    overflow: hidden;
+}
+
+.card-horizontal .card-horizontal-imagen {
+    width: 160px; 
+    min-width: 140px; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center top;
 }
 
 .card-horizontal-contenido {
-    padding: 12px;
+    flex: 1;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 8px;
+    color: var(--color-texto);
 }
 
 .card-horizontal-titulo {
     margin: 4px 0 8px 0;
     font-size: 1.25rem;
     color: #f8fafc;
+}
+
+.card-horizontal-contenido p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-horizontal-descripcion {

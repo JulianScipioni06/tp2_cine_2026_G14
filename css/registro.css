@@ -10,26 +10,28 @@ main{
 }
 form {
     background-color: #262626;
-    padding: 30px;
+    padding: 32px;
     border-radius: 12px;
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.5);
     max-width: 450px;
     width: 100%;
 }
 h2,h3{
     text-align: center;
 }
+
 h3{
     padding: 16px 0;
-    
     text-align: center;
 }
+
 form div{
     margin-bottom: 12px;
 }
+
 label{
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     font-weight: bold;
     font-size: 0.9rem;
 }
